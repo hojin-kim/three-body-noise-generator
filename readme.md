@@ -7,7 +7,9 @@
 Three body simulator is now written.
 See `threebody.py` and `draw.ipynb` notebook.
 
-### Noise generator 
+The below is something I am planning to do.
+
+### Noise generator (Ongoing)
 
 From the Center of Mass, say $O$, we will generate noises of three voices. 
 
