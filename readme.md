@@ -1,25 +1,32 @@
 # Three-body noise generator
 
-## Virtual environment
-
-`$ source .venv_3.../bin/activate`
-
-## What I have done so far
-
-### The Three-Body Simulator(TBS)
+## The Three-Body Simulator(TBS)
 
 The Three-Body simulator is now written.
-See `threebody.py` and `draw.ipynb` notebook.
+See `threebody.py`.
 
-The below is something I am planning to do.
+## three IPython notebooks
 
-## What I am planning to do
+### 1_simulator.ipynb
 
-### Noise Generator based on TBS
+This notebook shows how to use `threebody.py`.
+Also, it plots a trajectory (to check if the simulator works correctly).
 
-From the Center of Mass, say $O$, we will generate noises of three voices.
+The trajectory data with the initial condition of three celestial bodies are serialized.
 
-* Each voice corresponds to each celestial body.
-* At time $t$,
-  * The distance from $O$ to the body $A_1$ corresponds to the tone of the voices.
-  * The magnitude of the velocity of the body $A_1$ corresponds to the volume of the voice.
+### 2_noisemaker.ipynb
+
+This notebook generates the noise of three voices from the pickled trajectory data.
+
+`wav` file is generated.
+
+### 3_videomaker.ipynb 
+
+This notebook generates a video of the trajectory with the audio from the pickled trajectory data and `.wav` file.
+
+`.mp4` file is generated.
+
+## TODOS
+
+* Code refactoring
+* It would be a big project, but the same thing can be done with javascript etc. for the live demo on the web.
