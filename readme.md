@@ -1,19 +1,25 @@
-## Three body noise generator
+# Three-body noise generator
+
+## Virtual environment
 
 `$ source .venv_3.../bin/activate`
 
-### Three body simulator
+## What I have done so far
 
-Three body simulator is now written.
+### The Three-Body Simulator(TBS)
+
+The Three-Body simulator is now written.
 See `threebody.py` and `draw.ipynb` notebook.
 
 The below is something I am planning to do.
 
-### Noise generator (Ongoing)
+## What I am planning to do
 
-From the Center of Mass, say $O$, we will generate noises of three voices. 
+### Noise Generator based on TBS
+
+From the Center of Mass, say $O$, we will generate noises of three voices.
 
 * Each voice corresponds to each celestial body.
-* At time $t$, 
-    * Distance from $O$ to the body $A_1$ corresponds to the tone of the voice. 
-    * Magnitude of velocity of the body $A_1$ corresponds to the volume of the voice.
+* At time $t$,
+  * The distance from $O$ to the body $A_1$ corresponds to the tone of the voices.
+  * The magnitude of the velocity of the body $A_1$ corresponds to the volume of the voice.
