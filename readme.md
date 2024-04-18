@@ -1,5 +1,7 @@
 # Three-body noise generator
 
+![Alt text](img.png)
+
 ## The Three-Body Simulator(TBS)
 
 The Three-Body simulator is now written.
