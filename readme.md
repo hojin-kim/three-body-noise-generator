@@ -5,6 +5,14 @@
 The Three-Body simulator is now written.
 See `threebody.py`.
 
+See [this YT video](https://www.youtube.com/watch?v=MbhX1uRd6BI) for an example. Its initial condition follows.
+
+    ```
+    celbody1 = threebody.body(1,[-1, 0],    [0, -1])
+    celbody2 = threebody.body(1,[-.5, 1],   [1, 1])
+    celbody3 = threebody.body(1,[2, 0],     [0, 0])
+    ```
+
 ## three IPython notebooks
 
 ### 1_simulator.ipynb
